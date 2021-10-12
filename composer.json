@@ -1,0 +1,19 @@
+{
+    "name": "dbgen/laravel",
+    "description": "Scafoldig data from databese for laravel",
+    "type": "laravel-plugin",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Dbgen\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lalo",
+            "email": "eduardo_mg91@outlook.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
