@@ -6,7 +6,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Dbgen\\Laravel\\": "src/"
+            "phpscf\\crud\\": "src/"
         }
     },
     "authors": [
@@ -16,5 +16,13 @@
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "phpscf\\crud\\tests": "tests/"
+        }
+    }
+    
 }
